@@ -1,0 +1,63 @@
+.login-page {
+  background-image: url("../img/login-background.jpg");
+  background-size: 100%;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-border {
+  width: 350px;
+  height: 450px;
+  background-color: #ff8f5e;
+  border: 1px;
+  border-color: white;
+  border-radius: 20px;
+  opacity: 3;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  color: #b33c12;
+}
+
+.email {
+  border: 1px white;
+  border-radius: 5px;
+  font-family: "Helvetica Neue";
+  line-height: 40px;
+  height: 40px;
+  width: 90%;
+  text-align: center;
+}
+
+.password {
+  border: 1px white;
+  border-radius: 5px;
+  font-family: "Helvetica Neue";
+  line-height: 40px;
+  height: 40px;
+  width: 90%;
+  text-align: center;
+}
+
+.login-button {
+  border-radius: 50px;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  line-height: 40px;
+  height: 40px;
+  width: 90%;
+  text-align: center;
+  background-color: #f5593d;
+  border-color: #f5593d;
+  color: #fff;
+  opacity: 1;
+}
