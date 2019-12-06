@@ -1,4 +1,4 @@
-.login-page {
+.forgot-page {
   background-image: url("../img/login-background.jpg");
   background-size: 100%;
 }
@@ -10,7 +10,13 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.login-border {
+.paragraph {
+  font-family: "Helvetica Neue";
+  color: #b33c12;
+  font-size: 15px;
+}
+
+.forgot-border {
   width: 350px;
   height: 450px;
   background-color: #ff8f5e;
@@ -22,13 +28,13 @@ section {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Helvetica Neue";
   font-weight: 300;
   color: #b33c12;
 }
 
-.email {
+.forgot {
   border: 1px white;
   border-radius: 5px;
   font-family: "Helvetica Neue";
@@ -38,17 +44,7 @@ section {
   text-align: center;
 }
 
-.password {
-  border: 1px white;
-  border-radius: 5px;
-  font-family: "Helvetica Neue";
-  line-height: 40px;
-  height: 40px;
-  width: 90%;
-  text-align: center;
-}
-
-.login-button {
+.forgot-button {
   border-radius: 50px;
   font-family: "Helvetica Neue";
   font-weight: bold;
@@ -60,18 +56,4 @@ section {
   border-color: #f5593d;
   color: #fff;
   opacity: 1;
-}
-
-.forgot {
-  font-size: 12px;
-  font-family: "Helvetica Neue";
-  font-weight: 300;
-  color: #b33c12;
-}
-
-.register {
-  font-size: 12px;
-  font-family: "Helvetica Neue";
-  font-weight: 300;
-  color: #b33c12;
 }
